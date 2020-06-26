@@ -3,15 +3,14 @@
 This repository contains an official implementation for the paper, _Global Convergence and Induced Kernels of Gradient-Based Meta-Learning with Deep Neural Nets_. In the paper, we theoretically derive that Model-Agnostic Meta-Learning (MAML) with infinitely wide neural networks is equivalent to a special kernel regression with a new class of kernels, which we name s Meta Neural Kernels (MNKs). The MNK can be used as a kernel-based meta-learning method. We compare MNK vs. MAML and implicit MAML (iMAML) on a popular few-shot image classification benchmark, the Omniglot dataset, and find MNK can outperform MAML and iMAML in the _small-data_ cases. This repository includes our implementation of MNK and the code to compare it with MAML & iMAML.
 
 If you find this repository useful for your research, please consider citing our work:
-
-`@article{meta-learning-convergence-kernel,
+```
+@article{meta-learning-convergence-kernel,
     title={Global Convergence and Induced Kernels of Gradient-Based Meta-Learning with Neural Nets},
-    author = {Wang, Haoxiang and Sun, Ruoyu and Li, Bo},
+    author = {Wang, Haoxiang and Sun, Ruoyu and Li, Bo},    
     year={2020},
-  	journal={To appear on arXiv},
-}`
-
-
+  	journal={arXiv preprint arXiv:2006.14606},
+}
+```
 ## Code
 We provide a Jupyter notebook with comments to reproduce our experiments.
 `Experiments.ipynb`: run the experiments for Meta Neural Kernels (MNK), MAML and iMAML on subsets of Omniglot. The code will automatically load pretrained models and dataset from `saved_models/`. 
