@@ -8,7 +8,7 @@ If you find this repository useful for your research, please consider citing our
     title={Global Convergence and Induced Kernels of Gradient-Based Meta-Learning with Neural Nets},
     author = {Wang, Haoxiang and Sun, Ruoyu and Li, Bo},    
     year={2020},
-  	journal={arXiv preprint arXiv:2006.14606},
+    journal={arXiv preprint arXiv:2006.14606},
 }
 ```
 ## Code
