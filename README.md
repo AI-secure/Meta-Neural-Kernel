@@ -25,22 +25,28 @@ Due to the large size of the dataset and pre-trained models, we provide a Dropbo
 ## Dependency
 We run experiments on Ubuntu 18.04 with Python 3.7 and CUDA 10.2. The following python packages are required.
 numpy, scipy, matplotlib, pandas
+
 pytorch=1.5
+
 cupy
+
 scikit-image
+
 scikit-learn
+
 higher
+
 torchmeta
 
 **Note**: the denpendency list shown above may not be complete. We will update it later.
 
 ## Open-Source Code Repositories
-We adopt several open-sourced GitHub code repositories in this codebase, and we are grateful to their authors:
+In this codebase, we adopt some code from several open-sourced GitHub repositories, and we are grateful to their authors:
 [CNTK](https://github.com/ruosongwang/CNTK)
+
 [higher](https://github.com/facebookresearch/higher/)
+
 [hypertorch](https://github.com/prolearner/hypertorch)
-
-
 
 ## To-Do
 + Provide configurations/hyperparmeters for reported experiments in the paper. Will be put into a new `configs/` folder.
