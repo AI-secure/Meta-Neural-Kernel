@@ -1,6 +1,6 @@
 # _Global Convergence and Induced Kernels of Gradient-Based Meta-Learning with Deep Neural Nets_
 
-This repository contains an official implementation for the paper, [_Global Convergence and Induced Kernels of Gradient-Based Meta-Learning with Deep Neural Nets_](https://arxiv.org/abs/2006.14606). In the paper, we theoretically derive that Model-Agnostic Meta-Learning (MAML) with infinitely wide neural networks is equivalent to a special kernel regression with a new class of kernels, which we name s Meta Neural Kernels (MNKs). The MNK can be used as a kernel-based meta-learning method. We compare MNK vs. MAML and implicit MAML (iMAML) on a popular few-shot image classification benchmark, the Omniglot dataset, and find MNK can outperform MAML and iMAML in the _small-data_ cases. This repository includes our implementation of MNK and the code to compare it with MAML & iMAML.
+This repository contains an official implementation for the paper, [_Global Convergence and Induced Kernels of Gradient-Based Meta-Learning with Deep Neural Nets_](https://arxiv.org/abs/2006.14606v1). Currently, the repository contains code for the first version of this paper, and code of the revision version will be uploaded later. In the paper, we theoretically derive that Model-Agnostic Meta-Learning (MAML) with infinitely wide neural networks is equivalent to a special kernel regression with a new class of kernels, which we name s Meta Neural Kernels (MNKs). The MNK can be used as a kernel-based meta-learning method. We compare MNK vs. MAML and implicit MAML (iMAML) on a popular few-shot image classification benchmark, the Omniglot dataset, and find MNK can outperform MAML and iMAML in the _small-data_ cases. This repository includes our implementation of MNK and the code to compare it with MAML & iMAML.
 
 If you find this repository useful for your research, please consider citing our work:
 ```
@@ -8,7 +8,7 @@ If you find this repository useful for your research, please consider citing our
     title={Global Convergence and Induced Kernels of Gradient-Based Meta-Learning with Neural Nets},
     author = {Wang, Haoxiang and Sun, Ruoyu and Li, Bo},    
     year={2020},
-    journal={arXiv preprint arXiv:2006.14606},
+    journal={arXiv preprint arXiv:2006.14606v1},
 }
 ```
 ## Code
